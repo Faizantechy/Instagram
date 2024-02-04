@@ -15,7 +15,7 @@
 
 .section1{
 
-    width: 30%;
+    width: 10%;
     border-left: 2px solid black;
     padding-top: 50px;
     position: fixed; /* Change position to fixed */
@@ -36,6 +36,22 @@
     margin-top: 5px;
     font-weight: 800;
 }
+
+
+.imaage{
+
+    width: 130px;
+}
+
+.imaage:hover{
+
+    background-color: rgba(195, 195, 195, 0.959);
+    transform:scale(1.1);
+
+
+}
+
+
 
 .section1 h2{
     position: relative;
@@ -62,24 +78,26 @@
 
 .image-container img{
 
-    width: 55px;
-    height: 55px;
+    width: 70px;
+    height: 70px;
     border-radius: 50px;
+    position: relative;
+    left: 10px;
    
-    border: 2px solid rgb(255, 73, 103);
+    border: 3px solid rgb(255, 73, 103);
 }
 
 .image-container span{
 
     position: relative;
-    right: 48px;
+    right: 50px;
     top: 15px;
 }
 
 .section3{
 
-    width: 30%;
-    background-color: green;
+    /* width: 30%; */
+    height: 100vh;
 
 }
 
@@ -158,4 +176,79 @@
     padding-left: 5px;
     font-weight: 800;
     padding-top: 4px;
+}
+
+
+.section-img{
+
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+    position: relative;
+    /* right: 300px; */
+}
+
+.faispan{
+font-size: 18px;
+position: relative;
+bottom: 30px;
+left: 3px;
+font-weight: 800;
+
+}
+
+.faizpara{
+
+  
+    padding-left: 65px;
+    position: relative;
+    bottom: 28px;
+    left: 3px;
+
+}
+
+.content-container{
+
+    padding-top: 50px;
+    padding-right: 70px;
+}
+
+.content-container a{
+
+    text-decoration: none;
+    padding-left: 260px;
+    position: relative;
+    bottom: 55px;
+    font-weight: 800;
+    color: rgb(0, 174, 255);
+}
+
+.content-container a:hover{
+
+    color: rgba(0, 0, 0, 0.965);
+
+
+}
+
+.see{
+
+    position: relative;
+    left: 115px;
+    font-weight: 800;
+    color: black;
+
+}
+
+.suggst{
+
+    font-size: 19px;
+    font-weight: 800;
+    color: gray;
+    padding-bottom: 50px;
+}
+
+.suggestions{
+    position: relative;
+    left: 17px;
+
 }
